@@ -114,6 +114,7 @@ public class AttendanceWindow {
         });
     }
 
+    //AI Generated Code using ChatGPT Model. Refreshes table when new students are added.
     private void handleNewStudents(List<? extends Student> newStudents, Model model) {
         for (Student newStudent : newStudents) {
             System.out.println("New student added: " + newStudent.getName());
